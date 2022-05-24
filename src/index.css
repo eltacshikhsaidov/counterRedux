@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+section {
+  margin: 25% auto;
+  max-width: 600px;
+  padding: 1.25rem;
+  border: 0.1px solid rgb(235, 235, 235);
+  border-radius: 0.25rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+section:hover {
+  box-shadow: 0px 0px 10px rgb(238, 210, 255);
+}
+
+p {
+  font-size: 4rem;
+  color: rgb(150, 28, 221);
+  text-align: center;
+}
+
+section>div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+button {
+  font-size: 2rem;
+  padding: 0.5rem 3rem;
+  border: 0.1px solid rgb(235, 235, 235);
+  border-radius: 0.25rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 255, 255);
+  color: rgb(150, 28, 221);
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: rgb(150, 28, 221);
+  transition: 0.2s;
+  color: rgb(255, 255, 255);
+}
+
+button:active {
+  box-shadow: 5px 5px 5px rgb(220, 160, 255);
+  transition: 0.1s;
+}
+
+input {
+  font-size: 2rem;
+  padding: 0.5rem 3rem;
+  border: 0.1px solid rgb(235, 235, 235);
+  border-radius: 0.25rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 255, 255);
+  color: rgb(150, 28, 221);
+  font-weight: bolder;
+  text-align: center;
+  width: 30%;
+  margin: 2rem 27%;
+}
